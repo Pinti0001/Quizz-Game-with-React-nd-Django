@@ -2,6 +2,7 @@ import React from 'react';
 import "./User.scss";
 import { useSelector } from 'react-redux';
 import { Helmet } from 'react-helmet';
+
 const User = () => {
     const user = useSelector(state=> state.auth.user)
     return (

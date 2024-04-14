@@ -31,6 +31,7 @@ export const login=(username,password)=>async dispatch=>{
     }
     
 }
+
 export const register=(first_name,last_name,username,email,password1,password2)=>async dispatch=>{
     const config={
         headers:{

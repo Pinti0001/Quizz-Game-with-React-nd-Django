@@ -25,7 +25,6 @@ class Question(models.Model):
     def __str__(self):
         return f"{self.question}"
 
-
 class Test(models.Model):
     name = models.CharField(max_length=500)
     user = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE)

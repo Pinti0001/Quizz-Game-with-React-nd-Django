@@ -38,6 +38,7 @@ const Profile = () => {
             setResult(false)
         }
     }
+
     const isActive=title=>{
         if(title === "user" && user === true){
             return "active";

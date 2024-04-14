@@ -1,6 +1,7 @@
 import React from 'react'
 import "./NonChose.scss";
 import { Helmet } from 'react-helmet'
+
 const NonChose = () => {
     return (
         <div className="nonChose">

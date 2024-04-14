@@ -6,3 +6,4 @@ class UserAccountSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserAccount
         exclude = ['password']
+        

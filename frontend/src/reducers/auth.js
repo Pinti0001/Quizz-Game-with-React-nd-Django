@@ -5,6 +5,7 @@ import {
     SIGNUP_FAIL,
     LOGOUT
 } from '../actions/types'
+
 const initialState = {
     user:            JSON.parse(localStorage.getItem('user')) || null,
     token:           localStorage.getItem('token') || null,

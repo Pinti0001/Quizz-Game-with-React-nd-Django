@@ -2,6 +2,7 @@ import axios from 'axios';
 import React,{ useEffect,useState } from 'react';
 import Header from '../../components/Header';
 import "./ResultDetail.scss";
+
 const ResultDetail = ({ match }) => {
     const [result,setResult] = useState({
         test:[],

@@ -6,6 +6,7 @@ import { Redirect } from 'react-router-dom'
 import Alert from '../../components/Alert';
 import Head from '../../components/Header';
 import "./Register.scss";
+
 const Register = () => {
     const alert = useSelector(state=> state.alert)
     const isAuthenticated = useSelector(state=> state.auth.isAuthenticated)

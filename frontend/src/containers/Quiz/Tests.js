@@ -2,6 +2,7 @@ import axios from 'axios';
 import React,{ useState,useEffect } from 'react';
 import "./Tests.scss";
 import Head from '../../components/Header';
+
 const Tests = ({ history }) => {
     const [tests,setTests] = useState({
         results:[]

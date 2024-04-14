@@ -3,6 +3,7 @@ import "./Result.scss"
 import axios from 'axios';
 import { Helmet } from 'react-helmet'
 import { useHistory } from 'react-router-dom';
+
 const Result = () => {
     const history = useHistory()
     const [results,setResults] = useState({

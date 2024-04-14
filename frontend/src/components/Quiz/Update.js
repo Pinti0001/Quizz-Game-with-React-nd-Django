@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom'
 import "./Update.scss";
 import { Helmet } from 'react-helmet';
+
 const Update = () => {
     const history = useHistory()
     const dispatch = useDispatch()

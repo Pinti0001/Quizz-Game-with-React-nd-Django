@@ -6,6 +6,7 @@ import { Redirect } from 'react-router-dom';
 import Head from '../../components/Header';
 import './Login.scss';
 import Alert from '../../components/Alert';
+
 const Login = () => {
     const alert = useSelector(state=> state.alert);
     const isAuthenticated = useSelector(state=> state.auth.isAuthenticated);

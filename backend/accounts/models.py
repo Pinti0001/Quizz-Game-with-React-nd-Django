@@ -2,6 +2,7 @@ from django.db import models
 from django.db.models import query
 from django.template.defaultfilters import slugify
 import random
+
 # Create your models here.
 class UserAccount(models.Model):
     first_name = models.CharField(max_length=300)
@@ -35,5 +36,3 @@ class UserAccount(models.Model):
         
         
         super(UserAccount, self).save(*args, **kwargs)
-
-

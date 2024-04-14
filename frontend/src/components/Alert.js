@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux'
 import './Alert.scss'
+
 const Alert = () => {
     let alert = useSelector(state=> state.alert)
     console.log(alert)

@@ -124,3 +124,4 @@ class UpdateView(APIView):
         
         serialized_user = UserAccountSerializer(user_account,many=False)
         return Response({"success":"Successfully Updated user","user":serialized_user.data})
+        

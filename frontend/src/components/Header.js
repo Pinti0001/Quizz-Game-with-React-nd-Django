@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+
 const Head = ({ title }) => {
     return (
         <div className="headers--container">

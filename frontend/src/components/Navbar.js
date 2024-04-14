@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import './Navbar.scss';
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux';
+
 const Navbar = () => {
     const isAuthenticated = useSelector(state=> state.auth.isAuthenticated)
     const user = useSelector(state=> state.auth.user)

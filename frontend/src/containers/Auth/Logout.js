@@ -4,6 +4,7 @@ import { logout } from '../../actions/auth';
 import { useDispatch,useSelector } from 'react-redux';
 import './Logout.scss';
 import Head from '../../components/Header';
+
 const Logout = () => {
     const isAuthenticated = useSelector(state=> state.auth.isAuthenticated)
     const dispatch = useDispatch()

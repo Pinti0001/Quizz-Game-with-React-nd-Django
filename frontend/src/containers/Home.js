@@ -14,7 +14,7 @@ const Home = () => {
             <p>This is a Quiz WebApp where you can participate in quizzes
                 .It is a responsive website which means it will adjust it self accoding 
                 to the size of your device.To participate in these quizzes, first you have to login,
-                 if you have an account if not then you have to register</p>
+                if you have an account if not then you have to register</p>
             <div className="home--guest-links">
                 <Link className="home--guest-links-login" to="/login">Login</Link>
                 <Link className="home--guest-links-register" to="/register">Register</Link>

@@ -7,6 +7,7 @@ import { submit } from '../../actions/auth';
 import { Redirect } from 'react-router-dom';
 import { setAlert } from '../../actions/alert';
 import Alert from '../../components/Alert';
+
 const TestDetail = ({ match,history }) => {
     const dispatch = useDispatch()
     const [result,setResult] = useState([])

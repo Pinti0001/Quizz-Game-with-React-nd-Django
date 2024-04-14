@@ -7,7 +7,6 @@ from .serializers import QuestionSerializer, ResultSerializer, TestSerializer
 from rest_framework.response import Response
 from rest_framework.pagination import PageNumberPagination
 
-
 class LargeResultsSetPagination(PageNumberPagination):
     page_size = 9
     page_size_query_param = 'page_size'
@@ -62,8 +61,8 @@ class TestResultsView(APIView):
         count = 0
         for question in test.questions.all():
             for ques in result:
-               if (question.question == ques):
-                   #*! We have to create UserAnswers instance despite whether the answer is correct or incorrect.
+                if (question.question == ques):
+                    #*! We have to create UserAnswers instance despite whether the answer is correct or incorrect.
                     
                     UserAnswers.objects.create(user=self.request.user,test=test,question=question,user_answer=result[ques],result=result_user)
                     
